@@ -1,0 +1,44 @@
+html body{
+  height:100%;
+  width:100%;
+  margin:0;
+
+}
+
+
+
+body {
+ background-color: #ffe9b2;
+ background-image:url(IMG_5682.png);
+ background-repeat: no-repeat;
+ background-position:top;
+ background-size:60%;
+ height:100%;
+ width:100%;
+ position:relative;
+ color:#576899;
+ text-align: center;
+}
+
+a{
+  color: inherit;
+  display:inline-block;
+  transition: 200em;
+
+
+}
+a:hover {
+  transform: rotate(45deg);
+}
+
+img{
+  width:100%;
+  height:auto;
+}
+
+.personal-info{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translateX(-50%)translateY(400%);
+}
