@@ -8,37 +8,62 @@ html body{
 
 
 body {
- background-color: #ffe9b2;
- background-image:url(IMG_5682.png);
+ background-color: #59668e;
+ background-image:url(immerse.png);
  background-repeat: no-repeat;
  background-position:top;
  background-size:60%;
  height:100%;
  width:100%;
  position:relative;
- color:#576899;
- text-align: center;
-}
+ color:#ffa8b6;
+ text-align:center;
 
-a{
-  color: inherit;
-  display:inline-block;
-  transition: 200em;
-
-
-}
-a:hover {
-  transform: rotate(45deg);
-}
-
-img{
-  width:100%;
-  height:auto;
 }
 
 .personal-info{
+  font-family:"Raleway";
+  font-weight: normal;
   position:absolute;
-  top:50%;
-  left:50%;
-  transform:translateX(-50%)translateY(400%);
+  top:28em;
+  left:40%;
+}
+
+.play{
+  color:#ffaa19;
+}
+
+h1{
+  text-align:center;
+  font-size: 30pt;
+  letter-spacing: 5pt;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #59668e;
+}
+
+li {
+  padding-left: 5pt;
+    float: left;
+}
+
+li a {
+    color:white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+  background-color:#5be1ff;
+  display: block;
+  color: #59668e;
+
 }
